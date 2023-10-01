@@ -1,0 +1,31 @@
+local colors = {
+  fg    = '#d4d4d4',
+  bg    = '#68217a',
+  gray1 = '#5c6370',
+}
+
+return {
+  fg = colors.fg,
+  bg = colors.bg,
+  section_fg = colors.fg,
+  section_bg = colors.bg,
+  git_branch_fg = colors.fg,
+  treesitter_fg = colors.fg,
+  scrollbar = colors.fg,
+  git_added = colors.fg,
+  git_changed = colors.fg,
+  git_removed = colors.fg,
+  diag_ERROR = colors.fg,
+  diag_WARN = colors.fg,
+  diag_INFO = colors.fg,
+  diag_HINT = colors.fg,
+  winbar_fg = colors.gray1,
+  winbarnc_fg = colors.gray1,
+  inactive = colors.fg,
+  normal = colors.bg,
+  insert = colors.bg,
+  visual = colors.bg,
+  replace = colors.bg,
+  command = colors.bg,
+  terminal = colors.bg,
+}

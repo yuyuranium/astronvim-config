@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "https://github.com/LunarVim/darkplus.nvim.git"
+  },
+  {
+    "max397574/better-escape.nvim", enabled = false
+  }
 }

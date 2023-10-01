@@ -7,6 +7,20 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    backup = false,
+    clipboard = "unnamedplus",
+    conceallevel = 0,
+    fileencoding = "utf-8",
+    smartcase = true,
+    smartindent = true,
+    swapfile = false,
+    undofile = true,
+    numberwidth = 4,
+    scrolloff = 3,
+    sidescrolloff = 8,
+    textwidth = 100,
+    linebreak = true,
+    cmdheight = 1,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
