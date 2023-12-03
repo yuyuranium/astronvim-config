@@ -49,5 +49,9 @@ return {
         }
       },
     }
+  },
+  {
+    "yuyuranium/vim-bsv",
+    event = "BufRead"
   }
 }
